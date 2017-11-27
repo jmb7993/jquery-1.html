@@ -30,7 +30,18 @@
       $('h2').show();
       $('h3').show();
     }
+    function highlightByline () {
+      $('.byline').addClass('bysomeone');
+    }
+    function unHighlightByline () {
+      $('.byline').removeClass('bysomeone');
+    }
   </script>
+  <style>
+    .bysomeone {
+    background: yellow;
+  }
+  </style>
 </head>
 <body>
   <h1>Lorem ipsum</h1>
